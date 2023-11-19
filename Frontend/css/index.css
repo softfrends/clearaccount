@@ -1,29 +1,53 @@
 h1 {
     color: brown;
     text-align: center;
+    background-color: aquamarine;
+    margin: 0px;
+    
     
 }
 h2 {
     color: green;
+    background-color: aquamarine;
     text-align: center;
+    margin: 0%;
 }
 header{
     text-align: center;
 }
-.movimientos {
-    width: 40%;
-    font-size: 18px; 
-    border: 1px solid red;
-    display: inline-block;
-    
-}
-.tabla-movimientos{
+.container{
     width: 100%;
+    max-width: 100%;
 }
-.truco{
+.movimientos {
+    
+    width: 48%;
+    font-size: 18px; 
+    display: inline-block;    
+}
+.tabla-movimientos{ 
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0%;
+    font-family: sans-serif;
+    width: 100%;
+    min-height: 300px;
+    table-layout: fixed;
+}
+.botones{
     float: right;
 }
 footer{
     border: 1px solid blue;
+    margin-top: 10%;
+    font-size: 30px;
 
+}
+
+.fila-dato{
+    min-height: 50px;
+}
+.fila-impuje{
+    height: 100%;
+    visibility: hidden;
 }
